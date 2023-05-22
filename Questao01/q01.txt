@@ -1,0 +1,4 @@
+    primeira expressão: 1
+    segunda expressão: -2
+    terceira expressão: 3
+    quarta expressão: 10
