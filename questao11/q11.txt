@@ -1,0 +1,11 @@
+os comandos válidos são:
+aloha[2] = value;  pois a posição 3 do vetor aloa recebe o valor da variavel "value"
+scanf("%f", &aloha);  pois o valor lido é gravado na primeira posição do vetor aloha
+coisas[4][4] = aloha[3];  pois guardará o valor de aloha[3] na linha e coluna que "coisas" comanda
+pf = aloha;  pois o ponteiro vai ao endereço de "aloha"
+
+os comandos inválidos são:
+aloha = value;  pois precisa-se inormar uma posição
+printf("%f", aloha); ipois o comando não exibiras os valores dos indices, para isso é necessário inserir um laço para imprimir o vetor
+coisas[5] = aloha;  pois não são indicadas as linas e colunas
+pf = value;  é necessário indicar o endereço da variável

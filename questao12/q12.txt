@@ -1,0 +1,23 @@
+// Primeira resposta: Ponteiros para funções podem ser passados como argumentos para outras funções, e a função apontada pode ser invocada a partir de seu ponteiro
+// Referencia: https://www.dca.fee.unicamp.br/cursos/EA876/apostila/HTML/node144.html
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+  int a = 1;
+  int *px;
+  // a variável "a" é a que será apontada e "x" é o ponteiro
+
+  px = &a;
+  // o endereço do ponteiro foi designado para o endereço da variável
+
+  // para confirmar o valor de cada um basta printar os valores: 
+  printf ("Conteudo da variavel a: %d\n", a);
+  printf ("Endereço da variavel a: %x \n", &a);
+  printf ("Conteudo do ponteiro px: %x", px);
+  
+  return 0;
+}

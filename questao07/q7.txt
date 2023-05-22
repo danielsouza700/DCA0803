@@ -1,0 +1,3 @@
+as expressões válidas são:
+p = mat+1  pois o ponteiro irá receber o endereço de mat[1] na segunda posião do vetor
+x = (*mat)++  pois está pegando o endereço da primeira posição do vetor mat[], incrementando e guardando o valor nessa posição
